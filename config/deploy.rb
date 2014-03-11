@@ -5,7 +5,7 @@ set :scm, :git
 # set :scm, :git # You can set :scm explicitly or Capistrano will make an intelligent guess based on known version control directory names
 # Or: `accurev`, `bzr`, `cvs`, `darcs`, `git`, `mercurial`, `perforce`, `subversion` or `none`
 
-set :deploy_to, "/app/coohua/public/#{application}" #the dir that deploy to remote machine
+set :deploy_to, "/app/coohua/#{application}" #the dir that deploy to remote machine
 set :user, "wangxin"
 set :password, "coohua#007"
 set :use_sudo, false
